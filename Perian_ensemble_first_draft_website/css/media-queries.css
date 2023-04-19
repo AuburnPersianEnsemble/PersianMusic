@@ -1,0 +1,50 @@
+/* Responsive ----------------------------*/
+
+@media screen and (min-width: 768px) {
+h2 {
+	font-size:42px;
+}
+footer h5 {
+	text-align: left;
+}
+footer ul {	
+	margin: 0 auto;
+	text-align: right;
+}
+footer ul li a {
+	font-size:70px;
+}
+.color h3 {
+	font-size: 53px;
+	line-height: 68px;
+}
+.slider .carousel-caption h3 {
+	font-size: 50px;
+}
+.testimonials blockquote {
+	width: 75%;
+}
+.testimonials blockquote p {
+	font-size: 16px;
+}
+.testimonials .item div {
+	margin-bottom: 20px;
+}
+.testimonials .carousel-control {
+	top: 10%;
+}
+.topbar {
+	background: url("../img/logo-bg.png") repeat 0 0;
+	position: absolute;
+}
+
+} /*end*/
+
+@media screen and (max-width: 568px) { 
+.slider .carousel-caption h3 {
+	font-size: 16px;
+	margin: 2px 0;
+}
+
+} /*end*/
+
